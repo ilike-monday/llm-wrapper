@@ -10,7 +10,7 @@ const port = 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://honey-destiny-cobweb.glitch.me", // 여러분들 거
+    origin: "https://ilike-monday.github.io/", // 여러분들 거
     methods: ["POST"],
     allowedHeaders: ["Content-Type"],
   })
